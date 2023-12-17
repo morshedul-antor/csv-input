@@ -3,7 +3,6 @@ import pandas as pd
 
 i = 1
 
-
 def database_connect():
     return mysql.connector.connect(
         host="localhost",
